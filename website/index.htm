@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./els.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./layout.css">
+    <title>Furat - HTML Alive</title>
+</head>
+<body onscroll="scr()">
+    <nav id="navbar">
+        <span style="margin-left: 20px; float: left; font-size: 35px; color: white; font-family: sporto2; margin-top: 10px;">r</span>
+        <h1 style=" margin: 0px; float: left; color: white; margin-left: 20px; font-size: 39px;">
+            frontdirect - HTML Alive <h5 style="display: inline-block; color: white;"> &nbsp; 1.0.0</h5>
+        </h1>
+        <div id="navbtns">
+            <story>
+                <versio #=1.0.0>
+                    as waseem the user, i want a navbar so i can navigate easily
+                </versio>
+            </story>
+            <for $i=0 $max=$navbtns.length>
+                <button class="navbtn">
+                    <span style="font-family: sporto6; font-size: 70%;">B</span>
+                    <span><r>$navbtns[$i].text</r></span>
+                </button>
+            </for>
+        </div>
+    </nav>
+    <div id="navmarginer"></div>
+
+    <div id="head" class="screen" style="text-align: center; background-color: slateblue; color: white;">
+        <span class="xh1" style="color: white; margin-top: 60px; display: inline-block;">
+            <span id="icon" style="display: inline-block; font-size: 80%; font-family: sporto2; filter: opacity(90%);
+                color: rgb(64, 64, 64); color: transparent; background: url(./bk.png); background-clip: text; background-position-x: -10px; background-position-y: -20px; background-size: 300px;">
+            ^</span>
+            frontdirect
+        </span>
+        <span class="xh3" style="width: 70%;margin-left: 15%;">
+            <!--HTML is now alive-->
+            <span class="xh3" style="display: block; text-decoration: unset; font-size: 80%;">
+                <!--less ("front" + "back") x "end"-->
+                HTML Alive, A frontend acts like a backend
+            </span>
+        </span>
+        <div class="codeContainer" style="margin-top: 20px; text-align: left; font-size: 18px; margin-left: calc(50% - 2in); width: 4in; background-color: rgba(255, 255, 255, 0.884); border: 1px dashed rgb(64, 64, 64); padding: 10px;">    
+            <span><</span> <span class="keyword">for</span> <span class="keyword2">$i</span> = <span class="keyword3">0</span> <span class="keyword2">$max</span> = <span class="keyword3">$navbtns.length</span> <span>></span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span><</span> <span class="keyword">button</span> class = "navbtn" <span>></span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><</span><span class="keyword">r</span> <span>></span> <span class="keyword3">$navbtns[$i].text</span> <span><</span> /<span class="keyword">r</span><span>></span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span><</span> /<span class = "keyword">button</span> <span>></span><br>
+            <span><</span> /<span class="keyword">for</span> <span>></span>  <br>
+        </div>
+    </div>
+
+    <div id="intro" class="flex-parent screen">
+        <div class="flex-50vw-min3in">
+            <br>
+            <span class="xh2" style=" color: rgb(64, 64, 64); color: steelblue; display: inline;">
+                The harmony with JavaScript
+            </span>
+            <br>
+            <div class="codeContainer" style="font-size: 18px; margin-left: 20%; width: 60%; border: 1px dashed rgb(64, 64, 64); padding: 5px;">    
+                <span><</span> <span class="keyword">for</span> <span class="keyword2">$i</span> = <span class="keyword3">0</span> <span class="keyword2">$max</span> = <span class="keyword3">$navbtns.length</span> <span>></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span><</span> <span class="keyword">button</span> class = "navbtn" <span>></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><</span><span class="keyword">r</span> <span>></span> <span class="keyword3">$navbtns[$i].text</span> <span><</span> /<span class="keyword">r</span><span>></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span><</span> /<span class = "keyword">button</span> <span>></span><br>
+                <span><</span> /<span class="keyword">for</span> <span>></span>  <br>
+            </div>
+        </div>
+        <div class="flex-50vw-min3in">
+            <br>
+            <span class="xh2" style="color: steelblue;">
+                Get Started
+            </span>
+            <span class="xh5" style="margin-left: 0.5in;">
+                <span style="font-family: sporto2; font-size: 80%;">^</span> For Loop <span><</span> for> <span style="font-family: sporto1; font-size: 50%; color: steelblue;">%</span> <br>
+                <span style="font-family: sporto2; font-size: 80%;">^</span> If Statement <span><</span> if> <span style="font-family: sporto1; font-size: 50%; color: steelblue;">%</span> <br>
+                <span style="font-family: sporto2; font-size: 80%;">^</span> Replace <span><</span>r<span>></span> <span style="font-family: sporto1; font-size: 50%; color: steelblue;">%</span> <br>
+                <span style="font-family: sporto2; font-size: 80%;">^</span> JavaScript inline <span><</span>js mode= "replace" | "none"<span>></span> <span style="font-family: sporto1; font-size: 50%; color: steelblue;">%</span> <br>
+                <span style="font-family: sporto2; font-size: 80%;">^</span> <span style="color: steelblue;">(... Add/Edit the docs) </span><span style="font-family: sporto1; font-size: 50%; color: steelblue;">%</span> <br>
+            </span>
+            <br>
+            <span class="xh3" style="color: steelblue; font-size: 50px;">
+                Usage & Megration
+            </span>
+            <span class="paragraph">
+                FrontX totally fits within your already done projects & future normal-HTML projects, 
+                all you need is the FrontX JS Library <span style="font-family: sporto1; font-size: 50%; color: steelblue;">%</span>
+            </span>
+        </div>
+    </div>
+
+    <div id="media" class="screen">
+        <center>
+            <table style="text-align: center;">
+                <tr style="font-size: 150px;">
+                    <td style="padding-right: 40px; padding-left: 40px;">
+                        <a href="" style="text-decoration: none;">
+                            <span style="font-family: sporto1; color: rgb(64, 64, 64);">}</span>
+                        </a>
+                    </td>
+                    <td style="padding-right: 40px; padding-left: 40px;">
+                        <a href="https://twitter.com/WaseemSSaeed" style="text-decoration: none;">
+                            <span style="font-family: sporto2;  color: royalblue;">%</span>
+                        </a>
+                    </td>
+                    <td style="padding-right: 40px; padding-left: 40px;">
+                        <a href="https://www.linkedin.com/in/waseem-saeed-0238b0139/" style="text-decoration: none">
+                            <span style="font-family: sporto2; color: steelblue;">Y</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr style="font-size: 20px; vertical-align: top;">
+                    <td>
+                        <a href="" style="text-decoration: none;">
+                            GitHub <span style="font-family: sporto1; font-size: 50%; color: steelblue;">%</span>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://twitter.com/WaseemSSaeed" style="text-decoration: none;">
+                            Twitter <span style="font-family: sporto1; font-size: 50%; color: steelblue;">%</span>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://www.linkedin.com/in/waseem-saeed-0238b0139/" style="text-decoration: none;">
+                            LinkedIn <span style="font-family: sporto1; font-size: 50%; color: steelblue;">%</span>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <span class="xh2">Yes... let's make it together</span>
+        </center>
+    </div>
+</body>
+</html>
+
+
+<script src="./data.js"></script>
+<script src="../scrumjs.js"></script>
+
+<script>
+    i = 0;
+    function scr(){
+        _$("icon").style.transform = "rotateZ("+i+"deg)";
+        i+=20;
+
+        if(scrollY > 650 && scrollY < 1000){
+            //_$("navbar").style.backgroundColor = "steelblue";
+            _$("navbar").style.backgroundColor = "steelblue";
+        } else if(scrollY > 1000 && scrollY < 2500){
+            _$("navbar").style.backgroundColor = "rgb(64,64,64)";
+        } else {
+            _$("navbar").style.backgroundColor = "slateblue";
+        }
+    }
+</script>

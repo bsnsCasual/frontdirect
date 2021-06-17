@@ -1,0 +1,1 @@
+$navbtns = [{text: "intro"},{text: "story"}, {text: "SCRUM support 1.0.0"}, {text: "docs"}, {text: "download"}];
