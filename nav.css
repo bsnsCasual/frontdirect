@@ -1,0 +1,36 @@
+nav{
+    position: fixed;
+    height: 0.6in;
+    width: 100%;
+    background-color: cornflowerblue;
+    background-color: seagreen;
+    background-color: slateblue;
+    padding-top: 5px;
+}
+#navmarginer{
+    height:  calc(0.6in + 5px);
+}
+
+#navbtns{
+    float: right;
+    margin-right: 0.6in;
+    height: 100%;
+}
+.navbtn{
+    height: 100%;
+    margin: 0px;
+    background-color: royalblue;
+    background-color: rgb(35, 102, 64);
+    background-color: seagreen;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.navbtn:hover{
+    border-bottom: 4px black solid;
+    border-bottom-color: steelblue;
+    background-color: rgb(35, 102, 64);
+}

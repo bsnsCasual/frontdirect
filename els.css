@@ -1,0 +1,77 @@
+button{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color: white;
+}
+span{
+    color: inherit;
+}
+.xh1{
+    font-size: 100px;
+    display: block;
+}
+.xh2{
+    font-size: 70px;
+    display: block;
+}
+.xh3{
+    font-size: 50px;
+    display: block;
+}
+.xh4{
+    font-size: 25px;
+    display: block;
+}
+.xh5{
+    font-size: 20px;
+    display: block;
+}
+.screen{
+    min-height: 100vh;
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.flex-parent{
+    display: flex;
+}
+.flex-50vw-min3in{
+    flex-basis: 50%;
+}
+
+.codegallery{
+    background-color: white;
+    color: teal;
+    color: royalblue;
+    color: sandybrown;
+    color: seagreen;
+    color: cornflowerblue;
+    font-weight: bold;
+    width: 80%;
+    font-size: 105%;
+    resize: none;
+    outline: none;
+    border: 1px solid teal;
+    margin: 10px;
+    border: none;
+    pointer-events: none;
+}
+
+.keyword{
+    color: royalblue;
+    font-weight: bold;
+}
+.keyword2{
+    color: seagreen;
+    font-weight: bold;
+}
+.keyword3{
+    color: sienna;
+}
+
+.paragraph{
+    color: rgb(64, 64, 64);
+    font-size: 20px;
+}
