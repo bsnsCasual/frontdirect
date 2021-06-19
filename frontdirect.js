@@ -8,6 +8,10 @@ _$ready = false;
 fors = document.getElementsByTagName('for');
 ifs = document.getElementsByTagName('if');
 jsonDataInclude = document.getElementsByTagName('data');
+vars = document.getElementsByTagName("set");
+classes = document.getElementsByTagName("class");
+objects = document.getElementsByTagName("new");
+
 _$data = {};
 _$dataIsReady = false;
 pan = [];
@@ -133,15 +137,15 @@ function loop(){
         }
     });
 
-    for (let index = 0; index < document.getElementsByTagName('scrumjs').length; index++) {
-        eval(document.getElementsByTagName('scrumjs')[index].innerHTML);
+    for (let index = 0; index < document.getElementsByTagName('js').length; index++) {
+        eval(document.getElementsByTagName('js')[index].innerHTML);
 
-        executionMode = document.getElementsByTagName('scrumjs')[index].getAttribute('mode');
+        executionMode = document.getElementsByTagName('js')[index].getAttribute('mode');
         console.log(executionMode);
-        document.getElementsByTagName('scrumjs')[index].innerHTML = executionMode == "replace" ? eval(document.getElementsByTagName('scrumjs')[index].innerHTML) : "";
+        document.getElementsByTagName('js')[index].innerHTML = executionMode == "replace" ? eval(document.getElementsByTagName('js')[index].innerHTML) : "";
     }
 
-    for (let index = 0; index < document.getElementsByTagName('r').length; index++) { // "r" for "replace", instead of using <scrumjs mode="replace"></scrumjs>
+    for (let index = 0; index < document.getElementsByTagName('r').length; index++) { // "r" for "replace", instead of using <js mode="replace"></js>
         //eval(document.getElementsByTagName('r')[index].innerHTML);
         document.getElementsByTagName('r')[index].parentElement.innerHTML += eval(document.getElementsByTagName('r')[index].innerHTML);
         document.getElementsByTagName('r')[index].style.display = 'none';
